@@ -96,12 +96,12 @@ p {
   text-align: left;
 }
 .frontend-img {
-  width: 25%;
+  width: 20%;
   float: left;
   margin-right: 30px;
 }
 .design-img {
-  width: 25%;
+  width: 20%;
   float: right;
   margin-left: 30px;
 }
@@ -149,4 +149,41 @@ p {
   background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
   background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
   text-decoration: none;
+}
+
+.projects {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.cont {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.cont > a > img {
+  width: 90%;
+}
+.project {
+  margin: auto 2rem;
+  border: 1px solid #0c781c;
+  height: 16rem;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+  margin-bottom: 3rem;
+  transition: all 0.1s ease;
+}
+.project:hover {
+  background-color: #1ea833;
+  box-shadow: 6px 6px 0px #0c781c;
+  cursor: pointer;
+  transform: scale(1.05);
 }
